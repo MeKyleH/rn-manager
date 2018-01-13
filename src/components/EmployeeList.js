@@ -27,6 +27,7 @@ class EmployeeList extends Component {
     this.dataSource = ds.cloneWithRows(employees);
   }
 
+  // creates each employee with the employee data
   renderRow(employee) {
     return <ListItem employee={employee} />;
   }
